@@ -73,8 +73,8 @@ Download the Terraform files from the GitHub repository to your Shell session an
 1. Run the following commands to clone the GitHub repository:
 
 ```
-git clone https://github.com/devopshubproject/terraform-akspvtcluster.git
-Cloning into 'terraform-akspvtcluster'...
+git clone https://github.com/amarendra9991/terraform-aks-private-cluster.git
+Cloning into 'terraform-aks-private-cluster'...
 remote: Enumerating objects: 12, done.
 remote: Counting objects: 100% (12/12), done.
 remote: Compressing objects: 100% (10/10), done.
@@ -177,10 +177,6 @@ To use virtual network peering, you need to set up a link between virtual networ
 * Select Add, add the virtual network of the VM, and then create the peering.
 * Go to the virtual network where you have the VM, select Peerings, select the AKS virtual network, and then create the peering. If the address ranges on the AKS virtual network and the VM's virtual network clash, peering fails. For more information, see Virtual network peering.
 
-
-# Follow-Me
-
-:id: [LinkedIn](https://www.linkedin.com/in/premkumarpalanichamy/)
 
 
 ~~Reference~~
